@@ -1,0 +1,319 @@
+*{
+    font-family: 'Roboto';
+    box-sizing: border-box;
+}
+
+html{
+    margin: 0;
+    padding: 0;
+
+    width: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    
+    width: 100%;
+}
+
+/* Navigation */
+nav{
+    position: fixed;
+    
+    background: rgb(255, 255, 255, 0.95);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+    height: 79px;
+    width: 100%;
+    top: 0;
+    margin: 0;
+    
+    text-align: center;
+    overflow: hidden;
+}
+
+nav figure{
+    float: left;
+    margin-left: 127px;
+}
+
+nav .flex-container-row{
+    display: flex;
+    flex-direction: row;
+
+    max-width: 510px;
+    margin: auto auto;
+    margin: 12px;
+
+    text-align: center;
+}
+
+nav .right{
+    float: right;
+    margin-right: 111px;
+}
+
+nav .btn-nav{
+    flex-basis: 25%;
+
+    padding: 18px 16px;
+    width: 120px;
+    
+    font-size: 18px;
+    text-align: center;
+
+    cursor: pointer;
+    color: black;
+
+    visibility: visible;
+}
+
+nav .donate{
+    background: #3DB5E2;
+    border-radius: 40px;
+
+    width: 150px;
+    padding: 18px 48.5px;
+
+    color: white;
+}
+
+.donate:hover{
+    background: #007bff;
+    color: white;
+}
+
+nav .white-color{
+    color: white;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Main */
+/* this is first content */
+main{
+    width: 100%;
+
+    margin: 0;
+    padding: 0;
+}
+
+main .first-content{
+    background-image: url("../image/bg-vector.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    width: 100%;
+    height: 900px;
+}
+
+main .first-content .flex-container-collum{
+    float: left;
+    display: flex;
+    flex-direction: column;
+
+    max-width: 620px;
+    margin-top: 249px;
+    margin-left: 127px;
+
+    text-align: left;
+}
+
+main .flex-container-collum .title-header{
+    font-size: 48px;
+    letter-spacing: 0.05em;
+    font-weight: bold;
+
+    color: white;
+}
+
+main .flex-container-collum .title-desc{
+    font-size: 18px;
+    letter-spacing: 0.02em;
+
+    width: 500px;
+    padding-top: 30px;
+
+    color: white;
+}
+
+main .flex-container-row{
+    display: flex;
+    padding-top: 60px;
+
+    max-width: 416px;
+
+}
+
+main .button{
+    flex-basis: 50%;
+
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+
+    margin-right: 16px;
+    width: 200px;
+    padding: 16px 50px;
+
+    color: white;
+    border: 2px solid #FFFFFF;
+    border-radius: 30px;
+}
+
+main .blue-color{
+    background: white;
+    color: #007bff;
+}
+
+main .blue-color:hover{
+    background: #007bff;
+    color: white;
+}
+
+main .flex-container-collum p {
+    margin: 0;
+    padding: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+main .first-content figure{
+    float: right;
+
+    visibility: visible;
+    margin-right: 111px;
+    margin-top: 259px;
+}
+
+/* this is second content */
+main .second-content{
+    padding: 0;
+    margin: 0;
+    margin-top: 140px;
+    text-align: center;
+}
+
+main .second-content .title-content{
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: 0.02em;
+}
+
+main .second-content .flex-container-row{
+    display: flex;
+
+    max-width: 850px;
+    margin: 0 auto;
+    padding-top: 64px;
+}
+
+main .second-content .card{
+    text-align: center;
+    padding: 20px;
+    margin: 0 29px;
+    width: 232px;   
+    height: 310px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+}
+
+main .second-content .card:hover{
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.card .title-card{
+    font-weight: bold;
+    font-size: 18px;
+
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    margin-top: 15px;
+}
+
+.card img{
+    width: 160px;
+}
+
+.card .desc-card{
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    margin-top: 27px;
+}
+
+/* footer */
+footer{
+    padding: 12px;
+    margin-top: 150px;
+
+    height: 64px;
+    width: 100%;
+    left: 0px;
+    bottom: 0px;
+    
+    background-color: #F7F7F7;
+}
+
+footer p {
+    padding-left: 24px;
+
+    height: 16px;
+    left: 24px;
+    top: 24px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: left;
+    letter-spacing: 0.02em;
+
+    color: #828282;
+}
+
+@media screen and (max-width: 600px) {
+    body{
+        width: 600px;
+    }
+
+    main .first-content figure{
+        visibility: hidden;
+    }
+
+    nav figure{
+        margin: 16px;
+    }
+
+    
+    main .first-content .flex-container-collum{
+        margin-top: 207px;
+        margin-left: 16px;
+    }
+
+    main .second-content .flex-container-row{
+        flex-direction: column;
+    }
+
+    
+    main .second-content .card{
+        margin: 8px auto;
+    }
+
+    footer{
+        margin-top: 82px;
+    }
+}
