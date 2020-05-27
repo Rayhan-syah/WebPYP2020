@@ -1,34 +1,34 @@
-*{
+* {
     font-family: 'Roboto';
     box-sizing: border-box;
 }
 
-body{
+body {
     margin: 0;
     padding: 0;
     display: block;
 }
 
 /* Navigation */
-nav{
+nav {
     position: fixed;
-    
+
     background: rgb(255, 255, 255);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    
+
     height: 79px;
     width: 100%;
-    
+
     text-align: center;
     overflow: hidden;
 }
 
-nav figure{
+nav figure {
     float: left;
     margin-left: 127px;
 }
 
-nav .flex-container-row{
+nav .flex-container-row {
     display: flex;
     flex-direction: row;
 
@@ -39,17 +39,17 @@ nav .flex-container-row{
     text-align: center;
 }
 
-nav .right{
+nav .right {
     float: right;
     margin-right: 111px;
 }
 
-nav a{
+nav a {
     flex-basis: 25%;
 
     padding: 18px 16px;
     width: 120px;
-    
+
     font-size: 18px;
     text-align: center;
 
@@ -60,7 +60,7 @@ nav a{
     visibility: visible;
 }
 
-nav .donate{
+nav .donate {
     background: #3DB5E2;
     border-radius: 40px;
 
@@ -72,7 +72,7 @@ nav .donate{
 
 /* Main */
 /* this is first content */
-main .background{
+main .background {
     background-image: url("../image/bg-vector.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -82,7 +82,7 @@ main .background{
     height: 900px;
 }
 
-main .first-content .flex-container-collum{
+main .first-content .flex-container-collum {
     float: left;
     display: flex;
     flex-direction: column;
@@ -92,11 +92,9 @@ main .first-content .flex-container-collum{
     margin-left: 127px;
 
     text-align: left;
-
-    border: 1px solid black;
 }
 
-main .title-header{
+main .title-header {
     font-size: 48px;
     letter-spacing: 0.05em;
     font-weight: bold;
@@ -104,7 +102,7 @@ main .title-header{
     color: white;
 }
 
-main .title-desc{
+main .title-desc {
     font-size: 18px;
     letter-spacing: 0.02em;
 
@@ -114,16 +112,14 @@ main .title-desc{
     color: white;
 }
 
-main .flex-container-row{
+main .flex-container-row {
     display: flex;
     margin-top: 60px;
 
     max-width: 416px;
-    border: 1px solid black;
-
 }
 
-main .button{
+main .button {
     flex-basis: 50%;
 
     font-weight: bold;
@@ -139,12 +135,12 @@ main .button{
     border-radius: 30px;
 }
 
-main .blue-color{
+main .blue-color {
     background: white;
     color: #007bff;
 }
 
-main .blue-color:hover{
+main .blue-color:hover {
     background: #007bff;
     color: white;
 }
@@ -158,7 +154,7 @@ main .flex-container-collum p {
     margin-inline-end: 0px;
 }
 
-main .first-content figure{
+main .first-content figure {
     float: right;
 
     visibility: visible;
@@ -167,20 +163,20 @@ main .first-content figure{
 }
 
 /* this is second content */
-main .second-content{
+main .second-content {
     padding: 0;
     margin: 0;
     margin-top: 140px;
     text-align: center;
 }
 
-main .second-content .title-content{
+main .second-content .title-content {
     font-weight: bold;
     font-size: 40px;
     letter-spacing: 0.02em;
 }
 
-main .second-content .flex-container-row{
+main .second-content .flex-container-row {
     display: flex;
 
     max-width: 60%;
@@ -189,11 +185,11 @@ main .second-content .flex-container-row{
     padding-bottom: 12px;
 }
 
-main .second-content .card{
+main .second-content .card {
     text-align: center;
     padding: 20px;
     margin: 0 29px;
-    width: 232px;   
+    width: 232px;
     height: 310px;
 
     background: #FFFFFF;
@@ -201,11 +197,11 @@ main .second-content .card{
     border-radius: 16px;
 }
 
-main .second-content .card:hover{
+main .second-content .card:hover {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
 }
 
-.card .title-card{
+.card .title-card {
     font-weight: bold;
     font-size: 18px;
 
@@ -215,11 +211,11 @@ main .second-content .card:hover{
     margin-top: 15px;
 }
 
-.card img{
+.card img {
     width: 160px;
 }
 
-.card .desc-card{
+.card .desc-card {
     font-size: 16px;
     line-height: 19px;
     text-align: center;
@@ -229,7 +225,7 @@ main .second-content .card:hover{
 }
 
 /* footer */
-footer{
+footer {
     padding: 12px;
     margin-top: 147px;
 
@@ -237,7 +233,7 @@ footer{
     width: 100%;
     left: 0px;
     bottom: 0px;
-    
+
     background-color: #F7F7F7;
 }
 
@@ -259,40 +255,40 @@ footer p {
 }
 
 @media screen and (max-width: 600px) {
-    body{
+    body {
         display: flex;
         zoom: 64%;
     }
 
-    main .first-content figure{
+    main .first-content figure {
         visibility: hidden;
     }
 
-    nav figure{
+    nav figure {
         margin: 16px;
     }
 
-    main .title-header{
+    main .title-header {
         font-size: 40px;
     }
-    
 
-    main .first-content .flex-container-collum{
+
+    main .first-content .flex-container-collum {
         max-width: 600px;
         margin-top: 207px;
         margin-left: 16px;
     }
 
-    main .second-content .flex-container-row{
+    main .second-content .flex-container-row {
         flex-direction: column;
     }
 
-    
-    main .second-content .card{
+
+    main .second-content .card {
         margin: 8px auto;
     }
 
-    footer{
+    footer {
         margin-top: 82px;
     }
 }
