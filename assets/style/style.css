@@ -6,8 +6,7 @@
 body{
     margin: 0;
     padding: 0;
-    
-    width: 100%;
+    display: block;
 }
 
 /* Navigation */
@@ -19,8 +18,6 @@ nav{
     
     height: 79px;
     width: 100%;
-    top: 0;
-    margin: 0;
     
     text-align: center;
     overflow: hidden;
@@ -47,7 +44,7 @@ nav .right{
     margin-right: 111px;
 }
 
-nav .btn-nav{
+nav a{
     flex-basis: 25%;
 
     padding: 18px 16px;
@@ -58,6 +55,7 @@ nav .btn-nav{
 
     cursor: pointer;
     color: black;
+    text-decoration: none;
 
     visibility: visible;
 }
@@ -72,30 +70,9 @@ nav .donate{
     color: white;
 }
 
-.donate:hover{
-    background: #007bff;
-    color: white;
-}
-
-nav .white-color{
-    color: white;
-}
-
-nav a{
-    text-decoration: none;
-    color: black;
-}
-
 /* Main */
 /* this is first content */
-main{
-    width: 100%;
-
-    margin: 0;
-    padding: 0;
-}
-
-main .first-content{
+main .background{
     background-image: url("../image/bg-vector.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -115,9 +92,11 @@ main .first-content .flex-container-collum{
     margin-left: 127px;
 
     text-align: left;
+
+    border: 1px solid black;
 }
 
-main .flex-container-collum .title-header{
+main .title-header{
     font-size: 48px;
     letter-spacing: 0.05em;
     font-weight: bold;
@@ -125,7 +104,7 @@ main .flex-container-collum .title-header{
     color: white;
 }
 
-main .flex-container-collum .title-desc{
+main .title-desc{
     font-size: 18px;
     letter-spacing: 0.02em;
 
@@ -204,9 +183,10 @@ main .second-content .title-content{
 main .second-content .flex-container-row{
     display: flex;
 
-    max-width: 850px;
+    max-width: 60%;
     margin: 0 auto;
     padding-top: 64px;
+    padding-bottom: 12px;
 }
 
 main .second-content .card{
@@ -251,7 +231,7 @@ main .second-content .card:hover{
 /* footer */
 footer{
     padding: 12px;
-    margin-top: 150px;
+    margin-top: 147px;
 
     height: 64px;
     width: 100%;
@@ -280,7 +260,8 @@ footer p {
 
 @media screen and (max-width: 600px) {
     body{
-        width: 100%;
+        display: flex;
+        width: auto;
     }
 
     main .first-content figure{
@@ -291,8 +272,13 @@ footer p {
         margin: 16px;
     }
 
+    main .title-header{
+        font-size: 43px;
+    }
     
+
     main .first-content .flex-container-collum{
+        max-width: 600px;
         margin-top: 207px;
         margin-left: 16px;
     }
