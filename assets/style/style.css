@@ -163,17 +163,13 @@ main .first-content figure {
 }
 
 /* this is second content */
-main .second-content {
-    padding: 0;
-    margin: 0;
-    margin-top: 140px;
-    text-align: center;
-}
-
 main .second-content .title-content {
     font-weight: bold;
     font-size: 40px;
     letter-spacing: 0.02em;
+
+    margin-top: 10%;
+    text-align: center;
 }
 
 main .second-content .flex-container-row {
@@ -257,7 +253,7 @@ footer p {
 @media screen and (max-width: 600px) {
     body {
         display: block;
-        zoom: 61%;
+        zoom: 65%;
     }
 
     main .first-content figure {
@@ -282,8 +278,7 @@ footer p {
     main .second-content .flex-container-row {
         flex-direction: column;
     }
-
-
+    
     main .second-content .card {
         margin: 8px auto;
     }
