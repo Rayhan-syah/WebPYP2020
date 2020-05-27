@@ -3,13 +3,6 @@
     box-sizing: border-box;
 }
 
-html{
-    margin: 0;
-    padding: 0;
-
-    width: 100%;
-}
-
 body{
     margin: 0;
     padding: 0;
@@ -144,9 +137,10 @@ main .flex-container-collum .title-desc{
 
 main .flex-container-row{
     display: flex;
-    padding-top: 60px;
+    margin-top: 60px;
 
     max-width: 416px;
+    border: 1px solid black;
 
 }
 
@@ -154,12 +148,11 @@ main .button{
     flex-basis: 50%;
 
     font-weight: bold;
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
     cursor: pointer;
 
     margin-right: 16px;
-    width: 200px;
     padding: 16px 50px;
 
     color: white;
