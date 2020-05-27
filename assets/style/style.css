@@ -257,7 +257,7 @@ footer p {
 @media screen and (max-width: 600px) {
     body {
         display: block;
-        zoom: 60%;
+        zoom: 63%;
     }
 
     main .first-content figure {
