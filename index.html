@@ -3,78 +3,89 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>PYP2020</title>
-    <link rel="stylesheet" href="assets/style/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
     <header>
-        <nav>
-            <figure>
-                <a href="#">
-                    <img src="assets/image/MainLogo.png">
-                </a>
-            </figure>
-            <div class="flex-container-row right">
-                <a href="#">FAQ</a>
-                <a href="#">Location</a>
-                <a href="#">Contact</a>
-                <a href="#" class="white-color donate">Donate</a>
+        <nav class="navbar navbar-expand-lg navbar-custom navbar-light fixed-top">
+            <a class="navbar-brand" href="#"><img src="assets/image/MainLogo.png" alt="MainLogo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse text-center justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link" href="#">FAQ</a>
+                    <a class="nav-item nav-link" href="#">Location</a>
+                    <a class="nav-item nav-link" href="#">Contact</a>
+                    <a class="nav-item nav-link bg-blue" href="#">Donate</a>
+                </div>
             </div>
         </nav>
     </header>
     <main>
-        <div class="background">
-            <div class="first-content">
-                <div class="flex-container-collum">
-                    <div class="title-header">
+        <section class="bg">
+            <div class="container-fluid">
+                <div class="d-flex flex-column">
+                    <div class="title-header margin-custom1">
                         <p>FIGHT CORONA VIRUS <br> #StayAtHome</p>
                     </div>
-                    <div class="title-desc">
+                    <div class="title-desc margin-custom2">
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
                             been the industry's standard dummy text ever since the 1500s</p>
                     </div>
-                    <div class="flex-container-row">
-                        <div class="button blue-color">Learn More</div>
+                    <div class="d-flex flex-row margin-custom3">
+                        <div class="button bg-white">Learn More</div>
                         <div class="button">Contact Us</div>
                     </div>
                 </div>
-                <figure>
+                <figure class="ilus margin-custom0 d-none d-xl-block">
                     <img src="assets/image/illustration-head.png" alt="ilus">
                 </figure>
             </div>
-        </div>
-        <div class="second-content">
-            <div class="flex-container-collum">
-                <div class="title-content">
-                    <p>What must we do ?</p>
-                </div>
-                <div class="flex-container-row">
-                    <div class="card">
-                        <img src="assets/image/ill1-by-jakarta.go.id.png" alt="one">
-                        <p class="title-card">#StayAtHome</p>
-                        <p class="desc-card">Work from home, learn from home, and worship at home</p>
+        </section>
+        <section class="content">
+            <div class="container-fluid">
+                <div class="d-flex flex-column text-center ">
+                    <div class="title-content">
+                        <p>What must we do ?</p>
                     </div>
-                    <div class="card">
-                        <img src="assets/image/ill2-by-jakarta.go.id.png" alt="two">
-                        <p class="title-card">Wash Hand</p>
-                        <p class="desc-card">Use soap and water for at least 20 seconds or use alcohol-based hand
-                            sanitizers for at least 60%</p>
-                    </div>
-                    <div class="card">
-                        <img src="assets/image/ill3-by-jakarta.go.id.png" alt="three">
-                        <p class="title-card">Wear a Mask</p>
-                        <p class="desc-card">If you have to do activities outside the home and replace it periodically
-                        </p>
+                    <div class="d-flex flex-sm-row flex-column justify-content-center custom-flex-card">
+                        <div class="card align-self-center">
+                            <img src="assets/image/ill1-by-jakarta.go.id.png" alt="one">
+                            <p class="title-card">#StayAtHome</p>
+                            <p class="desc-card">Work from home, learn from home, and worship at home</p>
+                        </div>
+                        <div class="card align-self-center">
+                            <img src="assets/image/ill2-by-jakarta.go.id.png" alt="two">
+                            <p class="title-card">Wash Hand</p>
+                            <p class="desc-card">Use soap and water for at least 20 seconds or use alcohol-based hand
+                                sanitizers for at least 60%</p>
+                        </div>
+                        <div class="card align-self-center">
+                            <img src="assets/image/ill3-by-jakarta.go.id.png" alt="three">
+                            <p class="title-card">Wear a Mask</p>
+                            <p class="desc-card">If you have to do activities outside the home and replace it periodically
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     </main>
-    <footer>
-        <p>Created with ❤️ by Rayhan Aswiansyah</p>
-    </footer>
+    <footer id="sticky-footer" class="py-3 custom-footer text-white-50">
+        <div class="container-fluid align-content-start">
+          <small>Created with ❤️ by Rayhan Aswiansyah</small>
+        </div>
+      </footer>
+
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/popper.js"></script>
 </body>
 
 </html>

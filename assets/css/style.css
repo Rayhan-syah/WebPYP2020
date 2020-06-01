@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
+.navbar-custom {
+    background: rgba(255, 255, 255, 0.95);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.navbar-nav .nav-item {
+    padding: 15px;
+    margin: 0 16px;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    color: black;
+    font-size: 16px;
+}
+
+.navbar-custom .navbar-nav .bg-blue {
+    background-color: #3DB5E2;
+    border: none;
+    border-radius: 30px;
+    min-width: 150px;
+    color: white;
+    padding: 15px;
+}
+
+.bg {
+    background-image: url("../image/bg-vector.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 687px;
+}
+
+.margin-custom1 {
+    margin-top: 207px;
+}
+
+.margin-custom2 {
+    margin-top: 25px;
+}
+
+.margin-custom3 {
+    margin-top: 25px;
+}
+
+.title-header p {
+    color: white;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    letter-spacing: 0.05em;
+}
+
+.bg .flex-column {
+    max-width: 690px;
+}
+
+.button {
+    margin-right: 16px;
+    color: white;
+    font-weight: bold;
+}
+
+.button:hover {
+    box-shadow: 0px 4px 8px rgba(3, 11, 85, 0.5);
+    cursor: pointer;
+}
+
+.bg-white {
+    color: #3274CC;
+
+}
+
+.title-desc {
+    margin-top: 16px;
+
+    max-width: 500px;
+}
+
+.title-desc p {
+    font-size: 14px;
+    color: white;
+}
+
+.margin-custom3 .button {
+    padding: 12px 30px;
+
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+
+.custom-footer {
+    bottom: 0px;
+
+    background: #F7F7F7;
+    padding: 24px;
+    margin-top: 185px;
+}
+
+
+.content {
+    margin-top: 125px;
+}
+
+
+.title-content {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 33px;
+
+    letter-spacing: 0.02em;
+    
+    color: #000000;
+
+}
+
+.content .flex-row {
+    margin-top: 48px;
+
+    border: 1px solid black;
+}
+
+.card {
+    width: 232px;
+    height: 300px;
+    padding: 16px;
+    margin: 0 28px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+}
+
+.card:hover {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.title-card {
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 18px;
+
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: black;
+}
+
+.desc-card{
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    
+    color: #000000;
+}
+
+.card img {
+    width: 160px;
+    align-self: center;
+}
+
+.custom-flex-card{
+    margin-top: 48px;
+}
+
+@media (max-width: 576px) {
+    .title-content{
+        font-size: 28px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .navbar-custom {
+        height: 79px;
+    }
+
+    .navbar-brand {
+        margin-left: 112px;
+    }
+
+    .navbar-nav {
+        margin-right: 96px;
+    }
+
+    .bg {
+        position: initial;
+        background-image: url("../image/bg-vector.png");
+        background-color: #FDFDFD;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 900px;
+        background-size: 100% 900px;
+    }
+
+    .bg .flex-column {
+        float: left;
+    }
+
+    .ilus {
+        float: right;
+    }
+
+    .ilus img {
+        width: 400px;
+    }
+
+    .margin-custom0 {
+        margin-top: 210px;
+        margin-right: 96px;
+    }
+
+    .margin-custom1 {
+        margin-top: 210px;
+        margin-left: 112px;
+    }
+
+    .margin-custom2 {
+        margin-top: 20px;
+        margin-left: 112px;
+
+    }
+
+    .margin-custom3 {
+        margin-top: 50px;
+        margin-left: 112px;
+    }
+
+    .margin-custom3 .button {
+        padding: 12px 50px;
+    }
+
+    .title-header p {
+        font-size: 48px;
+        line-height: 56px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: bold;
+    }
+
+    .title-desc p {
+        font-size: 18px;
+    }
+
+}
