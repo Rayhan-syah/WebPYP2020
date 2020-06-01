@@ -173,6 +173,10 @@
     .title-content{
         font-size: 28px;
     }
+
+    .card{
+        margin: 8px 0;
+    }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
